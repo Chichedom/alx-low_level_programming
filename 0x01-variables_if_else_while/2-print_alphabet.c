@@ -1,15 +1,21 @@
 #include <stdio.h>
 /**
- * File: 2-print_alphabet.c
- * Author: Chedom
- * main - This function prints the alphabet in lowercase.
- */
 
+ * main - Prints the alphabet in uppercase, and then in lowercase.
+
+ *
+
+ * Return: Always 0.
+
+ */
 int main(void)
 {  
 char letter;
-for (letter = 'a'; letter <= 'z'; letter++);    
-putchar(letter);  
-putchar('\n');  
-return (0); 
+for (letter = 'A'; letter <= 'Z'; letter++);
+putchar(letter);
+putchar('\n');
+for (letter = 'a'; letter <= 'z'; letter++);
+putchar(letter);
+putchar('\n');
+return (0);
 }

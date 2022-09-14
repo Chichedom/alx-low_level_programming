@@ -14,7 +14,7 @@ putchar('0');
 for (col = 1; col <= 9; col++)
 putchar(',');
 putchar(' ');
-prod = num * mult;
+prod = num * col;
 if (prod <= 9)
 putchar(' ');
 else

@@ -11,7 +11,7 @@ int main(void)
 char *p  = "_putchar";
 while (*p)
 putchar (*p);
-*p++;
+putchar(*p++);
 putchar('\n');
 return (0);
 }

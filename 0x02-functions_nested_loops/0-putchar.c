@@ -8,10 +8,14 @@
 
 int main(void)
 {
-char *p  = "_putchar";
-while (*p)
-putchar (*p);
-putchar(*p++);
+putchar('_');
+putchar('p');
+putchar('u');
+putchar('t');
+putchar('c');
+putchar('h');
+putchar('a');  
+putchar('r');
 putchar('\n');
-return (0);
+return (0); 
 }
